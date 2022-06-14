@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="245" src="https://github.com/Devepation/EldenBash/raw/main/EldenBashAlpha.png">
+    <img width="245" src="https://github.com/Devepation/EldenBash/raw/main/EldenBashLogo.png">
 </p>
 
 <p align="center">

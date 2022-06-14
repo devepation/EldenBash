@@ -2,7 +2,7 @@ echo "Installing Bash Ring 2"
 cd ~
 
 # old thing touch /bin/bash/play-eldenbash
-wget https://github.com/Devepation/EldenBash/raw/main/src/eldenring.sh > play-eldenbash.sh
+wget https://github.com/Devepation/EldenBash/raw/main/src/eldenring2
 chmod +x play-eldenbash.sh
 sudo mv play-eldenbash.sh /bin/play-eldenbash
 cd ~

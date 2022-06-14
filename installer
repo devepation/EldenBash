@@ -1,6 +1,6 @@
 echo "Installing Bash Ring 2"
 cd ~
-wget https://github.com/Devepation/EldenBash/raw/main/src/eldenring.sh > bashring.sh
-mv ./bashring /bin/bash/play-bashring
+wget https://github.com/Devepation/EldenBash/raw/main/src/eldenring.sh > play-eldenbash.sh
+mv ./bashring /bin/bash
 cd ~
-echo "Done! To play, type in terminal: play-bashring"
+echo "Done! To play, type in terminal: play-eldenbash"

@@ -1,0 +1,48 @@
+#!/bin/bash
+
+
+
+
+
+#echo "You died"
+
+##FIRST_BEAST_BATTLE:BEGIN
+
+beast=$(( $RANDOM % 2 ))
+
+echo "YOUR FIRST BEAST APPROACH, PICK BETWEEN 0-1. THEN USE THE ENTER KEY. | CHOICES: (0/1)"
+
+read tarnished
+
+if [[ $beast == $tarnished || $tarnished == "wait_wut_lol" ]]; then
+echo 'you win...'
+else
+echo 'rip...'
+exit 1
+fi
+
+
+echo "Boss batttle: MARGIT, GET READY. PICK BETWEEN 0-9! (0-9)"
+read tarnished
+beast=$(( $RANDOM % 10 ))
+
+if [[ $beast == $tarnished || $tarnished == "wait_wut_lol" ]]; then
+echo 'you win...'
+else
+echo 'rip...'
+exit 1
+fi
+
+echo "Boss batttle: HOOBA-GLOOPA! PICK BETWEEN 0-50! (0-50)"
+read tarnished
+beast=$(( $RANDOM % 51 ))
+
+if [[ $beast == $tarnished || $tarnished == "wait_wut_lol" ]]; then
+echo 'you win...'
+else
+echo 'rip...'
+exit 1
+fi
+
+echo "Congratulations, you beat Elden Bash!"
+

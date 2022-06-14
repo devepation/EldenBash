@@ -17,7 +17,7 @@ As a result of following these bash tutorials, I've decided to make it official!
 ## Installation
 Classic Install to install game, or upgrade to Alpha 3.1
 ```bash
-wget -qO- https://github.com/Devepation/EldenBash/raw/main/installer-v10 | sh
+wget -qO- https://github.com/Devepation/EldenBash/raw/main/installer-v12 | sh
 ```
 
 

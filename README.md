@@ -17,10 +17,15 @@ As a result of following these bash tutorials, I've decided to make it official!
 ## Installation
 Classic install (RECOMMENDED), Must Have wGet installed.
 ```bash
-wget -qO- https://github.com/Devepation/EldenBash/raw/main/installer-v7 | sh
+wget -qO- https://github.com/Devepation/EldenBash/raw/main/installer-v9 | sh
 ```
 
 
 
 ## Contribution
 Currently, contribution is not available until we push a few more updates... ;)
+
+## Recent Updates
+### New in Elden Bash Alpha 3
+1. New boss: HOOBA-GLOOPA! Your chance in winning is a 1 in 51!
+2. Some bug fixes in the installer!

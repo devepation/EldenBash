@@ -3,6 +3,7 @@ cd ~
 
 # old thing touch /bin/bash/play-eldenbash
 wget https://github.com/Devepation/EldenBash/raw/main/src/eldenring.sh > play-eldenbash.sh
+chmod +x play-eldenbash.sh
 sudo mv play-eldenbash.sh /bin/play-eldenbash
 cd ~
 echo "Done! To play, type in terminal: play-eldenbash"

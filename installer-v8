@@ -1,0 +1,9 @@
+echo "Installing Bash Ring 2"
+cd ~
+
+# old thing touch /bin/bash/play-eldenbash
+wget https://github.com/Devepation/EldenBash/raw/main/src/eldenring2
+chmod +x eldenring2
+sudo mv eldenring2 /bin/eldenbash
+cd ~
+echo "Game successfully installed launch with the command: eldenbash"

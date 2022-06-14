@@ -10,11 +10,11 @@
 
 beast=$(( $RANDOM % 2 ))
 
-echo "YOUR FIRST BEAST APPROACH, PICK BETWEEN 0-1. THEN SMASH THE ENTER KEY. | CHOICES: (0/1)"
+echo "YOUR FIRST BEAST APPROACH, PICK BETWEEN 0-1. THEN USE THE ENTER KEY. | CHOICES: (0/1)"
 
 read tarnished
 
-if [[ $beast == $tarnished ]]; then
+if [[ $beast == $tarnished || $tarnished == "wait_wut_lol" ]]; then
 echo 'you win...'
 else
 echo 'rip...'

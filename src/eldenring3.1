@@ -35,7 +35,7 @@ fi
 
 echo "Boss batttle: HOOBA-GLOOPA! PICK BETWEEN 0-50! (0-50)"
 read tarnished
-beast=$(( $RANDOM % 51 || ))
+beast=$(( $RANDOM % 51 ))
 
 if [[ $beast == $tarnished || $tarnished == "wait_wut_lol" ]]; then
 echo 'you win...'

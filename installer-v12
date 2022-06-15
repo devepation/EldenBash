@@ -1,9 +1,0 @@
-echo "Installing Elden Bash Alpha 3.1"
-cd ~
-
-# old thing touch /bin/bash/play-eldenbash
-wget https://github.com/Devepation/EldenBash/raw/main/src/eldenring4
-chmod +x eldenring4
-sudo mv eldenring4 /bin/eldenbash
-cd ~
-echo "Game successfully installed/upgraded! launch with the command: eldenbash"

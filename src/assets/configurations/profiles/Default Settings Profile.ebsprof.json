@@ -1,0 +1,12 @@
+{
+"bosses_enabled":True,
+"bossdefaulthealth":"EBSProf.Inscriptconfigs.CONSTANTS.MODE_GET_FROM_MAIN_BASH_SCRIPT",
+"unr":"_WARNING_DONT_EDIT_THIS_CONFIG_OR_YOU_MAY_BREAK_SOMTHING_"
+
+
+
+
+
+
+"comment":"Hello, if you're reading this ebsprof.json file, you maybe were trying to learn how to customize your configs, and publish them online in the assets/configurations store. This is an upcoming feature. The written tutorial will be available soon on the website store.eldenbash.gw-entertainment.net/ptut ;D | Anyways, hopefully I can push this feature by Beta 2, or Beta 3. Bye. -Devepation (lead dev/owner) ;)"
+}

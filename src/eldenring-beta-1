@@ -1,0 +1,90 @@
+#!/bin/bash
+
+
+echo '
+  ______ _     _              ____            _     
+ |  ____| |   | |            |  _ \          | |    
+ | |__  | | __| | ___ _ __   | |_) | __ _ ___| |__  
+ |  __| | |/ _` |/ _ \ |_ \  |  _ < / _| / __| |_ \ 
+ | |____| | (_| |  __/ | | | | |_) | (_| \__ \ | | |
+ |______|_|\__,_|\___|_| |_| |____/ \__,_|___/_| |_|
+                                                    
+                                                    
+        
+       Welcome to Elden Bash
+       
+
+WARN: elden bash is no longer supported.
+
+       Pick your gamemode by typing the id thats in the brackets, then pressing enter
+
+
+       GAMEMODE OPTIONS:
+        > Alpha Testing Mode (t)
+       More game modes coming soon
+
+       
+        '
+
+read gamemode
+
+if [[ $gamemode == "t" ]]; then
+
+
+beast=$(( $RANDOM % 2 ))
+
+echo "YOUR FIRST BEAST APPROACH, PICK BETWEEN 0-1. THEN USE THE ENTER KEY. | CHOICES: (0/1)"
+
+read tarnished
+
+if [[ $beast == $tarnished || $tarnished == "wait_wut_lol" ]]; then
+echo 'you win...'
+else
+echo 'rip...'
+exit 1
+fi
+
+
+echo "Boss batttle: MARGIT, GET READY. PICK BETWEEN 0-9! (0-9)"
+read tarnished
+beast=$(( $RANDOM % 10 ))
+
+if [[ $beast == $tarnished || $tarnished == "wait_wut_lol" ]]; then
+echo 'you win...'
+else
+echo 'rip...'
+exit 1
+fi
+
+echo "Boss batttle: HOOBA-GLOOPA! PICK BETWEEN 0-50! (0-50)"
+read tarnished
+beast=$(( $RANDOM % 51 ))
+
+if [[ $beast == $tarnished || $tarnished == "wait_wut_lol" ]]; then
+echo 'you win...'
+else
+echo 'rip...'
+exit 1
+fi
+
+echo "Congratulations, you beat Elden Bash test mode."
+
+
+
+elif [[ $gamemode == "n" ]]; then
+echo "
+
+REGULAR MODE!
+
+"
+
+
+# Very very large game logic
+
+
+
+
+else
+echo 'Gamemode is unknown! Restart the program, and try again. Try updating your game to get new game-modes!'
+exit 1
+fi

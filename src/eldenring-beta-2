@@ -71,15 +71,42 @@ echo "Congratulations, you beat Elden Bash test mode."
 
 
 
-elif [[ $gamemode == "n" ]]; then
+elif [[ $gamemode == "n" ]];
+
+
+
+# Very very large game logic
+
+
+
+
+
+
 echo "
 
-REGULAR MODE!
+YOUR STATS:                                                  BEAST STATS:
+===================                                   ===================
+                                                   feature in development
+HEALTH - 80% full (status goes here)                  ===================
+----------
+||||||||
+----------
+
+
+===================
+
 
 "
 
 
-# Very very large game logic
+
+
+
+
+
+
+
+
 
 
 

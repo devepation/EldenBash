@@ -15,9 +15,9 @@ This script, originally was made by [NetworkChuck on YouTube](https://www.youtub
 As a result of following these bash tutorials, I've decided to make it official!
 
 ## Installation
-Classic Install to install game, or upgrade to Alpha 3.1
+Classic Install to install game, or upgrade to Beta 2.0
 ```bash
-wget -qO- https://github.com/Devepation/EldenBash/raw/main/installer-v12 | sh
+wget -qO- https://github.com/Devepation/EldenBash/raw/main/installer-beta-2 | sh
 ```
 
 
@@ -26,6 +26,11 @@ wget -qO- https://github.com/Devepation/EldenBash/raw/main/installer-v12 | sh
 Currently, contribution is not available until we push a few more updates... ;)
 
 ## Recent Updates
+
+### New in Elden Bash Beta 2 (Major Update, internal changes only)
+1. Internal placeholders for upcoming attack system...
+2. Internal graphic test functionality
+3. Internal settings profiles for upcoming assets store
 
 ### New in Elden Bash Beta 1 (Major Update)
 1. Overhauled attack system!

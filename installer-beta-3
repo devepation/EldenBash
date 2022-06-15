@@ -1,0 +1,9 @@
+echo "Installing Elden Bash Beta 3"
+cd ~
+
+# old thing touch /bin/bash/play-eldenbash
+wget https://github.com/Devepation/EldenBash/raw/main/src/eldenring-beta-3
+chmod +x eldenring-beta-3
+sudo mv eldenring-beta-3 /bin/eldenbash
+cd ~
+echo "Game successfully installed/upgraded! launch with the command: eldenbash"

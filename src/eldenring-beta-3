@@ -71,7 +71,7 @@ echo "Congratulations, you beat Elden Bash test mode."
 
 
 
-elif [[ $gamemode == "n" ]];
+elif [[ $gamemode == "n" ]]; then
 
 
 

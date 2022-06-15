@@ -27,7 +27,7 @@ Currently, contribution is not available until we push a few more updates... ;)
 
 ## Recent Updates
 
-### New in Elden Bash Beta 2 (Major Update, internal changes only)
+### New in Elden Bash Beta 2/3 (made mistake lol) (Major Update, internal changes only)
 1. Internal placeholders for upcoming attack system...
 2. Internal graphic test functionality
 3. Internal settings profiles for upcoming assets store

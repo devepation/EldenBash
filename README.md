@@ -15,17 +15,25 @@ This script, originally was made by [NetworkChuck on YouTube](https://www.youtub
 As a result of following these bash tutorials, I've decided to make it official!
 
 ## Installation
-Classic Install to install game, or upgrade to Beta 2.0
+Classic Install to install game, or upgrade to latest.
 ```bash
 wget -qO- https://github.com/Devepation/EldenBash/raw/main/installer-beta-2 | sh
 ```
 
 
 
-## Contribution
-Currently, contribution is not available until we push a few more updates... ;)
+## How to Contribute
+### Publish to the TEApot eShop
+Feature unavailable, coming soon ;)
 
-## Recent Updates
+### Contribution
+You can create a fork, and build up your own features (as long as unrelated to eShop and eShopOpenAPI changes)
+
+## Update Logs
+
+### New in Elden Bash (developer beta) Beta 5
+1. New attack system in dev beta mode
+2. Internal placeholders for the "eShop"... 👀🎮
 
 ### New in Elden Bash Beta 2/3 (made mistake lol) (Major Update, internal changes only)
 1. Internal placeholders for upcoming attack system...

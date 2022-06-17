@@ -21,6 +21,8 @@ WARN: elden bash is no longer supported.
 
        GAMEMODE OPTIONS:
         > Alpha Testing Mode (t)
+        > Story Mode Developers Beta (n)
+        > eShop Developers Beta (s)
        More game modes coming soon
 
        
@@ -110,6 +112,13 @@ HEALTH - 80% full (status goes here)                  ===================
 
 
 
+
+elif [[ $gamemode == "s" ]]; then
+
+
+echo "Launching the Elden Bash eShop..."
+
+echo "eShop launch fail: This feature is only available to developers!"
 
 else
 echo 'Gamemode is unknown! Restart the program, and try again. Try updating your game to get new game-modes!'

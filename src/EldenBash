@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 
 echo '
@@ -40,9 +40,9 @@ echo "YOUR FIRST BEAST APPROACH, PICK BETWEEN 0-1. THEN USE THE ENTER KEY. | CHO
 read tarnished
 
 if [[ $beast == $tarnished || $tarnished == "wait_wut_lol" ]]; then
-echo 'you win...'
+echo 'ENEMY FALLEN'
 else
-echo 'rip...'
+echo 'YOU DIED'
 exit 1
 fi
 
@@ -52,9 +52,9 @@ read tarnished
 beast=$(( $RANDOM % 10 ))
 
 if [[ $beast == $tarnished || $tarnished == "wait_wut_lol" ]]; then
-echo 'you win...'
+echo 'GREAT FOE VANQUISHED'
 else
-echo 'rip...'
+echo 'YOU DIED'
 exit 1
 fi
 
@@ -63,9 +63,9 @@ read tarnished
 beast=$(( $RANDOM % 51 ))
 
 if [[ $beast == $tarnished || $tarnished == "wait_wut_lol" ]]; then
-echo 'you win...'
+echo 'YOU WIN'
 else
-echo 'rip...'
+echo 'YOU DIED'
 exit 1
 fi
 
